@@ -36,3 +36,20 @@ export const stylet_middle = { // text in middle of home page
   fontSize: '1.5rem', 
   lineHeight: '2.5rem'
 };
+
+export const stylet_header = { // header for page about me
+  position: 'absolute',
+  top: '3rem',
+  left: '50%',
+  transform: 'translateX(-50%)',
+  color: '#fff',
+  fontSize: '1.7rem',
+  textAlign: 'center'
+};
+
+export const styleph = {  // photos in the page about me
+  position: 'absolute',
+  width: '450px',
+  height: 'auto',
+  margin: '1rem 0',
+};
