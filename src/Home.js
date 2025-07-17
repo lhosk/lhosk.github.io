@@ -9,11 +9,14 @@ function Home() {
       <NavBar />
 
       <div style={stylet_middle}>
-        {`hey! i'm lucas
+        {`
+        hey! i'm lucas
         i do computational physics
         i'm working on a master's in cs and physics
         my current project is reinforcement learning on F1 tracks
-        my next project will be optimizing soccer formations/positioning`}
+        my next project will be optimizing soccer formations/positioning
+        check out the links in the top right!
+        `}
       </div>
 
     </div>

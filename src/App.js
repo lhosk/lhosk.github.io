@@ -1,13 +1,39 @@
 import {Routes, Route} from 'react-router-dom';
+
+// Main Pages
 import Home from './Home';
 import MoreAboutLucas from './MoreAboutLucas';
+import Projects from './Projects'
+
+// Project Pages
+import AtariRL from './projectPages/AtariRL';
+import ConnectFour from './projectPages/ConnectFourAI';
+import MatlabMCS from './projectPages/MatlabMCS';
+import MCSAPF from './projectPages/mcsapf';
+import RedLightGreenLight  from './projectPages/RedLightGreenLight';
+import Parallel from './projectPages/parallel';
+import RecipeRec from './projectPages/RecipeRec';
+import VRD from './projectPages/vrd';
 
 function App() {
   return (
     <Routes>
+
+      {/* Main Pages */}
       <Route path="/" element={<Home />} />
       <Route path="/more_about_lucas" element={<MoreAboutLucas />} />
-      {/* later add: <Route path="/projects" element={<Projects />} /> */}
+      <Route path="/projects" element={<Projects />} />
+      
+      {/* Project Pages */}
+      <Route path="/atari_rl" element={<AtariRL />} />
+      <Route path="/connect_four" element={<ConnectFour />} />
+      <Route path="/mcs_matlab" element={<MatlabMCS />} />
+      <Route path="/mcsapf" element={<MCSAPF />} />
+      <Route path="/parallel" element={<Parallel />} />
+      <Route path="/recipe_rec" element={<RecipeRec />} />
+      <Route path="/red_light_green_light" element={<RedLightGreenLight />} />
+      <Route path="/vrd" element={<VRD />} />
+      
     </Routes>
   );
 }

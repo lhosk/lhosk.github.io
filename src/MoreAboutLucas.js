@@ -1,7 +1,7 @@
 import NavBar from './NavBar';
-import {style_background, stylet_header, stylet_middle, styleph } from './styles';
+import {style_background, stylet_header, stylet_middle, styleph} from './styles';
 import {catPic, dogPic, soccerPic, beachPic} from './images';
-import React, { useState, useEffect } from 'react';
+import {useState, useEffect} from 'react';
 
 // Used to delete the images whenever the screen is too small
 function useMediaQuery(query) {
@@ -19,11 +19,19 @@ function useMediaQuery(query) {
 }
 
 function MoreAboutLucas() {
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    return () => {
+    document.body.style.overflow = '';
+    };
+  }, []);
 
-  const isWide = useMediaQuery('(min-width: 1800px)');
+
+
+  const isWide = useMediaQuery('(min-width: 1850px)');
 
   return (
-    <div style={style_background}>
+    <div style={{...style_background, paddingBottom: '40rem', overflow: 'hidden'}}>
       <NavBar />
       
       <div style={stylet_header}>
@@ -39,7 +47,7 @@ function MoreAboutLucas() {
         </>
        )}
 
-      <div style={{...stylet_middle, fontSize: '1.2rem', lineHeight: '1.5rem'}}>
+      <div style={{...stylet_middle, fontSize: '1.2rem', lineHeight: '1.5rem', top: '30%'}}>
         {`
         at the moment, i'm getting a masters in CS and another in (applied) physics
         i should be done with both by December 2025!
