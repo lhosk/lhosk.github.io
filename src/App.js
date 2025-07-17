@@ -25,14 +25,14 @@ function App() {
       <Route path="/projects" element={<Projects />} />
       
       {/* Project Pages */}
-      <Route path="/atari_rl" element={<AtariRL />} />
-      <Route path="/connect_four" element={<ConnectFour />} />
-      <Route path="/mcs_matlab" element={<MatlabMCS />} />
-      <Route path="/mcsapf" element={<MCSAPF />} />
-      <Route path="/parallel" element={<Parallel />} />
-      <Route path="/recipe_rec" element={<RecipeRec />} />
-      <Route path="/red_light_green_light" element={<RedLightGreenLight />} />
-      <Route path="/vrd" element={<VRD />} />
+      <Route path="/projects/atari_rl" element={<AtariRL />} />
+      <Route path="/projects/connect_four" element={<ConnectFour />} />
+      <Route path="/projects/mcs_matlab" element={<MatlabMCS />} />
+      <Route path="/projects/mcsapf" element={<MCSAPF />} />
+      <Route path="/projects/parallel" element={<Parallel />} />
+      <Route path="/projects/recipe_rec" element={<RecipeRec />} />
+      <Route path="/projects/red_light_green_light" element={<RedLightGreenLight />} />
+      <Route path="/projects/vrd" element={<VRD />} />
       
     </Routes>
   );
