@@ -54,16 +54,16 @@ function MoreAboutLucas() {
         during my free time, i play soccer, billiards, and have a few guitars that i play
         i also have a lap-steel guitar, but i'm not very good at it and the strings break a lot
         if you ever see me, i'm most likely listening to music
-        Dominic Fike, Yeek, Baird, Bakar, and Matt Champion are just a few of my favorite artists
+        Dominic Fike, Yeek, Baird, Bakar, and Matt Champion are my favorite artists
         
         my favorite soccer team is West Ham and I support Colombia's national team
         when i get the chance, i go to sports games (specifically soccer and hockey)
-        with my current project, i'm trying to get into F1, but I haven't had much time
+        with my current project, i'm trying to get into F1, but I haven't had much time to watch
         the same goes for tv shows, anime, and movies
         regardless, some of my favorite shows are Breaking Bad, The Bear, and The Eternaut
         I also recommend One Piece, Cowboy Bebop, and Samurai Champloo
 
-        email me to talk and work! (top right)
+        email me to talk and work together! (top right)
         here's some photos:
         `}
       </div>
