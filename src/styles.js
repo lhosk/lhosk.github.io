@@ -31,15 +31,19 @@ export const stylet_top_left = { // top left links
 };
 
 export const stylet_middle = { // text in middle of home page
+  position: 'absolute',
   whiteSpace: 'pre-line', 
-  textAlign: 'center', 
+  textAlign: 'center',
+  left: '50%',
+  transform: 'translateX(-50%)',
+  top: '20%',
   fontSize: '1.5rem', 
   lineHeight: '2.5rem'
 };
 
 export const stylet_header = { // header for page about me
   position: 'absolute',
-  top: '3rem',
+  top: '5rem',
   left: '50%',
   transform: 'translateX(-50%)',
   color: '#fff',
