@@ -14,21 +14,21 @@ const otherLinks = [
 
 const NavBar = () => (
   <>
-    <div style={stylet_top_left}>
+    <div style={stylet_top_left} className="top-left">
       <Link to={homeLink.to} style={{ color: 'white', textDecoration: 'underline' }}>
         {homeLink.label}
       </Link>
     </div>
 
-    <div style={stylet_top_right}>
+    <div style={stylet_top_right} className="top-right">
       {otherLinks.map(({ label, to, external }) => (
         <div key={label}>
           {external ? (
-            <a href={to} style={{ color: 'white', textDecoration: 'underline' }}>
+            <a href={to} style={{ color: 'white', textDecoration: 'underline' }} className="home-link">
               {label}
             </a>
           ) : (
-            <Link to={to} style={{ color: 'white', textDecoration: 'underline' }}>
+            <Link to={to} style={{ color: 'white', textDecoration: 'underline' }} className="home-link">
               {label}
             </Link>
           )}

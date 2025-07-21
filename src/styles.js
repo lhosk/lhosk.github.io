@@ -3,14 +3,15 @@
 export const style_background = {  // background
   backgroundColor: '#4f4f4f',
   minHeight: '100vh',
-  position: 'relative',
   display: 'flex',
+  flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
+  padding: '2rem'
 };
 
 const stylet_links = { //text for links
-  fontSize: '1.75rem',
+  fontSize: '1.5rem',
   color: 'white',
   position: 'absolute',
   top: '1rem',
@@ -30,19 +31,23 @@ export const stylet_top_left = { // top left links
   textAlign: 'left',
 };
 
-export const stylet_middle = { // home page text
-  position: 'absolute',
-  top: '40%',
-  left: '50%',
+export const stylet_middle_home = { // home page text
   color: 'white',
-  transform: 'translate(-50%, -50%)',
-  whiteSpace: 'pre',
+  fontSize: 'clamp(1rem, 2vw, 2.25rem)',
+  lineHeight: '3.25rem',
   overflow: 'hidden',
   textAlign: 'center',
-  fontSize: '2.25rem',
-  lineHeight: '3.25rem',
-  width: '80vw',
+  width: '100vw',
   maxWidth: '1100px'
+};
+
+export const stylet_middle_mam = { // more about me page text
+  ... stylet_middle_home,
+  fontSize: 'clamp(0.62rem, 1.5vw, 1.25rem)',
+  lineHeight: 'clamp(0.2rem, 0.65vw, 1.5rem)',
+  top: 'clamp(4.5rem, 11.5rem - 5vw, 12rem)',
+  // top: '10.5rem',
+  position: 'relative'
 };
 
 export const stylet_link_separation = { // to allow a gap for each link
@@ -52,7 +57,7 @@ export const stylet_link_separation = { // to allow a gap for each link
 }
 
 export const stylet_project_links = { // project links on projects page
-  ...stylet_middle,
+  ...stylet_middle_home,
   fontSize: '1.5rem',
   listStyleType: 'none'
 }

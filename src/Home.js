@@ -1,4 +1,4 @@
-import {style_background, stylet_middle} from './styles';
+import {style_background, stylet_middle_home} from './styles';
 import NavBar from './NavBar';
 
 function Home() {
@@ -8,15 +8,17 @@ function Home() {
       
       <NavBar />
 
-      <div style={stylet_middle}>
-        {`
-        hey! i'm lucas
-        i do computational physics
-        i'm working on a master's in cs and physics
-        my current project is reinforcement learning on F1 tracks
-        my next project will be optimizing soccer formations/positioning
-        check out the links in the top right!
-        `}
+      <div style={stylet_middle_home} className="home-text">
+        {[
+          "hey! i'm lucas",
+          "i do computational physics",
+          "i'm working on a master's in cs and physics",
+          "my current project is reinforcement learning on F1 tracks",
+          "my next project will be optimizing soccer formations/positions",
+          "check out the links in the top right!"
+        ].map((line, i) => (
+          <p key={i} style={{ margin: 0 }}>{line}</p>
+        ))}
       </div>
 
     </div>
