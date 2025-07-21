@@ -1,8 +1,7 @@
 // Listed are all text styles/formats used
 
 export const style_background = {  // background
-  backgroundColor: '#000',
-  color: 'white',
+  backgroundColor: '#4f4f4f',
   minHeight: '100vh',
   position: 'relative',
   display: 'flex',
@@ -35,6 +34,7 @@ export const stylet_middle = { // home page text
   position: 'absolute',
   top: '40%',
   left: '50%',
+  color: 'white',
   transform: 'translate(-50%, -50%)',
   whiteSpace: 'pre',
   overflow: 'hidden',

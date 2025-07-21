@@ -47,7 +47,7 @@ function MoreAboutLucas() {
         </>
        )}
 
-      <div style={{...stylet_middle, fontSize: '1.2rem', lineHeight: '1.5rem', top: '30%'}}>
+      <div style={{...stylet_middle, fontSize: '1.2rem', lineHeight: '1.5rem', top: '32.5%'}}>
         {`
         at the moment, i'm getting a masters in CS and another in (applied) physics
         i should be done with both by December 2025!
