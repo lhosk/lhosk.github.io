@@ -71,6 +71,7 @@ function MoreAboutLucas() {
         regardless, some of my favorite shows are Breaking Bad, The Bear, and The Eternaut
         I also recommend One Piece, Cowboy Bebop, and Samurai Champloo
 
+        oh and my favorite color is gray (hence the background)
         email me to talk and work together! (top right)
         here's some photos:
         `}
