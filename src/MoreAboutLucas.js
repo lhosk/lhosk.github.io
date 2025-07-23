@@ -38,10 +38,10 @@ function MoreAboutLucas() {
 
       {isWide && (
         <div style={{ position: 'absolute', display: 'flex', minHeight: '100vh' }}>
-          <img src={catPic} style={{ ...styleph, top: '8rem', marginLeft: '8vw' }} alt="Cat" />
-          <img src={soccerPic} style={{ ...styleph, top: '8rem', marginLeft: '92vw', translate: '-100%' }} alt="Soccer" />
-          <img src={dogPic} style={{ ...styleph, top: '48rem', marginLeft: '8vw' }} alt="Dog" />
-          <img src={beachPic} style={{ ...styleph, top: '47rem', marginLeft: '92vw', translate: '-100%' }} alt="Beach" />
+          <img src={catPic} style={{ ...styleph, top: '8rem', marginLeft: '7vw' }} alt="Cat" />
+          <img src={soccerPic} style={{ ...styleph, top: '8rem', marginLeft: '93vw', translate: '-100%' }} alt="Soccer" />
+          <img src={dogPic} style={{ ...styleph, top: '48rem', marginLeft: '7vw' }} alt="Dog" />
+          <img src={beachPic} style={{ ...styleph, top: '47rem', marginLeft: '93vw', translate: '-100%' }} alt="Beach" />
         </div>
       )}
 

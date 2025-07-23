@@ -1,5 +1,3 @@
-// Listed are all text styles/formats used
-
 // Backgrounds + Headers + NavBar (not page specific stuff)
   // Background
     // More About Me Page
@@ -75,7 +73,7 @@
     export const stylet_middle_mam = {
       color: 'white',
       textAlign: 'center',
-      fontSize: 'clamp(0.57rem, 1.5vw, 1.25rem)',
+      fontSize: 'clamp(0.57rem, 1..25vw, 1.2rem)',
       lineHeight: 'clamp(0.2rem, 0.65vw, 1.5rem)',
       marginTop: '10rem',
       position: 'relative',
