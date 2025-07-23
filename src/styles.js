@@ -55,7 +55,7 @@
     // marginTop: 'clamp(-35rem, 45rem - 50vw, 10rem)',
     // // marginTop: '-35rem',
     // // marginTop: '10rem',
-    marginTop: 'clamp(4.5rem, 16rem - 5vw, 16rem)',
+    marginTop: 'clamp(4.5rem, 11rem - 5vw, 11rem)',
     // marginBottom: '3rem',
     // top: 'clamp(4.5rem, 13rem - 5vw, 13rem)',
     position: 'relative'
