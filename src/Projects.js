@@ -1,12 +1,12 @@
 import NavBar from './NavBar';
-import {style_background, stylet_project_links, stylet_link_separation, stylet_header_mp} from './styles';
+import {style_background_home, stylet_project_links, stylet_link_separation, stylet_header_mp} from './styles';
 import {Link} from 'react-router-dom';
 
 
 function Projects() {
 
   return (
-    <div style={{...style_background}}>
+    <div style={{...style_background_home}}>
       <NavBar />
       
       <div style={stylet_header_mp}>

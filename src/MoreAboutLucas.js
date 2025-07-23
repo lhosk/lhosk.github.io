@@ -1,50 +1,27 @@
 import NavBar from './NavBar';
 import { style_background, stylet_header_mp, stylet_middle_mam, styleph } from './styles';
 import { catPic, dogPic, soccerPic, beachPic } from './images';
-import { useState, useEffect } from 'react';
-
-function useMediaQuery(query) {
-  const [matches, setMatches] = useState(false);
-
-  useEffect(() => {
-    const mql = window.matchMedia(query);
-    setMatches(mql.matches);
-    const handler = e => setMatches(e.matches);
-    mql.addEventListener('change', handler);
-    return () => mql.removeEventListener('change', handler);
-  }, [query]);
-
-  return matches;
-}
 
 function MoreAboutLucas() {
-  useEffect(() => {
-    document.body.style.overflow = 'auto';
-    return () => {
-      document.body.style.overflow = '';
-    };
-  }, []);
-
-  const isWide = useMediaQuery('(min-width: 1850px)');
-  const isNarrow = useMediaQuery('(max-width: 1849px)');
-
   return (
-    <div style={{ ...style_background, paddingBottom: '5rem', overflowY: 'auto', minHeight: '125vh' }}>
+    <div style={{...style_background, display: 'flex', justifyContent: 'center'}}>
       <NavBar />
 
       <div style={stylet_header_mp}>
-        {`more about lucas!!!`}
+        more about lucas!!!
       </div>
 
-      {/* Wide screen: images on sides */}
-      {isWide && (
-        <>
-          <img src={catPic}    style={{ ...styleph, top: '10rem',   left: '5%' }} />
-          <img src={dogPic}    style={{ ...styleph, top: '51.5rem', left: '5%' }} />
-          <img src={soccerPic} style={{ ...styleph, top: '10rem',   right: '5%' }} />
-          <img src={beachPic}  style={{ ...styleph, top: '50rem',   right: '5%' }} />
-        </>
-      )}
+      {/* Left side */}
+      <div style={{ position: 'absolute', top: 0, left: 0 }}>
+        <img src={catPic} style={{ ...styleph, marginTop: '10rem', marginLeft: '2rem' }} alt="Cat" />
+        <img src={dogPic} style={{ ...styleph, marginTop: '3rem', marginLeft: '2rem' }} alt="Dog" />
+      </div>
+
+      {/* Right side */}
+      <div style={{ position: 'absolute', top: 0, right: 0 }}>
+        <img src={soccerPic} style={{ ...styleph, marginTop: '10rem', marginRight: '2rem' }} alt="Soccer" />
+        <img src={beachPic} style={{ ...styleph, marginTop: '3rem', marginRight: '2rem' }} alt="Beach" />
+      </div>
 
       {/* Text content */}
       <div style={stylet_middle_mam}>
@@ -90,20 +67,6 @@ function MoreAboutLucas() {
             </p>
           ))}
       </div>
-
-      {/* Narrow screen: 2x2 grid with specific pairing */}
-      {isNarrow && (
-        <div style={{ marginTop: '5rem', textAlign: 'center' }}>
-          <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '1rem' }}>
-            <img src={catPic} style={{ width: '45vw', maxWidth: '400px' }} />
-            <img src={soccerPic} style={{ width: '45vw', maxWidth: '400px' }} />
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem' }}>
-            <img src={dogPic} style={{ width: '80vw', maxWidth: '400px' }} />
-            <img src={beachPic} style={{ width: '80vw', maxWidth: '400px' }} />
-          </div>
-        </div>
-      )}
     </div>
   );
 }
