@@ -49,7 +49,7 @@ function MoreAboutLucas() {
       {/* Text content */}
       <div style={stylet_middle_mam}>
         {`
-          at the moment, i'm getting a masters in CS and another in (applied) physics
+          TESTINGSat the moment, i'm getting a masters in CS and another in (applied) physics
           i should be done with both by December 2025!
 
           because of this, i live in charlotte (@uncc) during the semesters

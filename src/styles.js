@@ -4,7 +4,7 @@
   // All Pages
   export const style_background = {
     backgroundColor: '#4f4f4f',
-    minHeight: '100%',
+    minHeight: '100dvh',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
