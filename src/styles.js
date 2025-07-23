@@ -4,7 +4,7 @@
   // All Pages
   export const style_background = {
     backgroundColor: '#4f4f4f',
-    minHeight: '100vh',
+    minHeight: '110vh',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -50,7 +50,7 @@
   // More About Me Page
   export const stylet_middle_mam = {
     ... stylet_middle_home,
-    fontSize: 'clamp(0.62rem, 1.5vw, 1.25rem)',
+    fontSize: 'clamp(0.57rem, 1.5vw, 1.25rem)',
     lineHeight: 'clamp(0.2rem, 0.65vw, 1.5rem)',
     marginTop: 'clamp(4.5rem, 15rem - 5vw, 15rem)',
     // top: 'clamp(4.5rem, 13rem - 5vw, 13rem)',
