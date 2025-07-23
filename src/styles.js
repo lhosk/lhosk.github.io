@@ -7,7 +7,6 @@ export const style_background = {  // background
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  padding: '2rem'
 };
 
 const stylet_links = { //text for links

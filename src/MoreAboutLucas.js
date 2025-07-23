@@ -29,7 +29,7 @@ function MoreAboutLucas() {
   const isNarrow = useMediaQuery('(max-width: 1849px)');
 
   return (
-    <div style={{ ...style_background, paddingBottom: '5rem', maxHeight: '100vh', overflowY: 'auto' }}>
+    <div style={{ ...style_background, paddingBottom: '5rem', overflowY: 'auto' }}>
       <NavBar />
 
       <div style={stylet_header}>
