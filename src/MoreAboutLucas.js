@@ -1,5 +1,5 @@
 import NavBar from './NavBar';
-import { style_background, stylet_header, stylet_middle_mam, styleph } from './styles';
+import { style_background, stylet_header_mp, stylet_middle_mam, styleph } from './styles';
 import { catPic, dogPic, soccerPic, beachPic } from './images';
 import { useState, useEffect } from 'react';
 
@@ -32,7 +32,7 @@ function MoreAboutLucas() {
     <div style={{ ...style_background, paddingBottom: '5rem', overflowY: 'auto' }}>
       <NavBar />
 
-      <div style={stylet_header}>
+      <div style={stylet_header_mp}>
         {`more about lucas!!!`}
       </div>
 
@@ -93,7 +93,7 @@ function MoreAboutLucas() {
 
       {/* Narrow screen: 2x2 grid with specific pairing */}
       {isNarrow && (
-        <div style={{ marginTop: '9.25rem', textAlign: 'center' }}>
+        <div style={{ marginTop: '5rem', textAlign: 'center' }}>
           <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '1rem' }}>
             <img src={catPic} style={{ width: '45vw', maxWidth: '400px' }} />
             <img src={soccerPic} style={{ width: '45vw', maxWidth: '400px' }} />

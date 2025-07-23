@@ -1,6 +1,7 @@
 // Listed are all text styles/formats used
 
 // Background
+  // All Pages
   export const style_background = {
     backgroundColor: '#4f4f4f',
     minHeight: '100vh',
@@ -35,8 +36,8 @@
   };
 
 
-// Home page
-  // Text (affects more about me middle text)
+// Middle Text
+  // Home Page (Affects More About Me Page)
   export const stylet_middle_home = {
     color: 'white',
     fontSize: 'clamp(1rem, 2vw, 2.25rem)',
@@ -46,19 +47,19 @@
     width: '100vw',
     maxWidth: '1100px'
   };
-
-
-// More About Me Page
-  // Middle Text
+  // More About Me Page
   export const stylet_middle_mam = {
     ... stylet_middle_home,
     fontSize: 'clamp(0.62rem, 1.5vw, 1.25rem)',
     lineHeight: 'clamp(0.2rem, 0.65vw, 1.5rem)',
-    top: 'clamp(4.5rem, 11.5rem - 5vw, 12rem)',
+    marginTop: 'clamp(4.5rem, 15rem - 5vw, 15rem)',
+    // top: 'clamp(4.5rem, 13rem - 5vw, 13rem)',
     position: 'relative'
   };
 
-  // Photos
+
+// Photos
+  // More About Me Page
   export const styleph = {  
     position: 'absolute',
     width: '450px',
@@ -66,17 +67,30 @@
     margin: '1rem 0',
   };
 
-// Header for all projects, main project, and more about me pages
-  // Header
-  export const stylet_header = { 
+
+// Headers
+  // Header for project and more about me page
+  export const stylet_header_mp = { 
     position: 'absolute',
     top: '5rem',
     left: '50%',
     transform: 'translateX(-50%)',
     color: 'white',
-    fontSize: '2.25rem',
+    fontSize: 'clamp(1.5rem, 2.5vw, 2.25rem)',
     textAlign: 'center'
   };
+  // Header for each project page
+  export const stylet_header = { 
+    position: 'absolute',
+    marginTop: '3rem',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    color: 'white',
+    fontSize: 'clamp(0.75rem, 2.5vw, 2.25rem)',
+    textAlign: 'center',
+    width: '100vw'
+  };
+
 
 // Projects Page
   // Gap for each link
@@ -90,7 +104,7 @@
     color: 'white',
     overflow: 'hidden',
     textAlign: 'center',
-    fontSize: 'clamp(0.75rem, 2.5vw, 1.75rem',
+    fontSize: 'clamp(0.5rem, 2.5vw, 1.75rem',
     listStyleType: 'none',
     padding: '0',
   }

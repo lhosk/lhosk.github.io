@@ -8,7 +8,7 @@ function MatlabMCS() {
       <NavBar />
       
       <div style={{...stylet_header, top: '8rem'}}>
-        {`Matlab: Monte Carlo Simulation to Predict Size of Circles and Spheres`}
+        {`Monte-Carlo Simulation to Predict Size of Circles and Spheres`}
       </div>
 
     </div>

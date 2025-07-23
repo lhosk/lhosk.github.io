@@ -8,7 +8,14 @@ function ConnectFour() {
       <NavBar />
       
       <div style={{...stylet_header, top: '8rem'}}>
-        {`Connect Four with MiniMax and AB Pruning`}
+        
+        <a
+          href="https://github.com/lhosk/Applied-AI/tree/main/Connect-Four-Minimax-And-AB-Pruning" 
+          target="_blank" rel="noopener noreferrer" style={{color: 'white'}}
+        >
+          Connect Four with MiniMax and AB Pruning
+        </a>
+
       </div>
 
     </div>

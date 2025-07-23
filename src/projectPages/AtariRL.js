@@ -8,7 +8,14 @@ function AtariRL() {
       <NavBar />
       
       <div style={{...stylet_header, top: '8rem'}}>
-        {`Reinforcement Learning Using Atari`}
+
+        <a
+          href="https://github.com/lhosk/Applied-AI/tree/main/Reinforcement-Learning" 
+          target="_blank" rel="noopener noreferrer" style={{color: 'white'}}
+        >
+          Reinforcement Learning Using Atari
+        </a>
+        
       </div>
 
     </div>

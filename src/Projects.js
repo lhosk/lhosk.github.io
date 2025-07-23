@@ -1,5 +1,5 @@
 import NavBar from './NavBar';
-import {style_background, stylet_header, stylet_project_links, stylet_link_separation} from './styles';
+import {style_background, stylet_project_links, stylet_link_separation, stylet_header_mp} from './styles';
 import {Link} from 'react-router-dom';
 
 
@@ -9,7 +9,7 @@ function Projects() {
     <div style={{...style_background}}>
       <NavBar />
       
-      <div style={stylet_header}>
+      <div style={stylet_header_mp}>
         {`projects`}
       </div>
 
@@ -24,7 +24,7 @@ function Projects() {
             Connect Four with MiniMax and AB Pruning </Link>
 
             <Link to="/projects/mcs_matlab" style = {stylet_link_separation}>
-            Matlab: Monte Carlo Simulation to Predict Size of Circles and Spheres</Link>
+            MATLAB: Monte Carlo Simulation to Predict Size of Circles and Spheres</Link>
 
             <Link to="/projects/mcsapf" style = {stylet_link_separation}>
             Arduino: Monte Carlo Simulation for Atomic Packing Factors</Link>
