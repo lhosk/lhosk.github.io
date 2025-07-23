@@ -2,14 +2,14 @@
 
 // Backgrounds + Headers + NavBar (not page specific stuff)
   // Background
-    // All Pages but Home and Project Page
-    export const style_background = {
+    // More About Me Page
+    export const style_background_singular = {
       backgroundColor: '#4f4f4f',
-      minHeight: '100dvh',
+      minHeight: '100dvh'
     }
-    // Home + Project Page
-    export const style_background_home = {
-      ... style_background,
+    // All other Pages
+    export const style_background = {
+      ... style_background_singular,
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
@@ -78,8 +78,8 @@
       fontSize: 'clamp(0.57rem, 1.5vw, 1.25rem)',
       lineHeight: 'clamp(0.2rem, 0.65vw, 1.5rem)',
       marginTop: '10rem',
-      // marginTop: 'clamp(4.5rem, 3vh + 5vw, 11rem)',
-      position: 'relative'
+      position: 'relative',
+      whiteSpace: 'pre'
     };
     // Photos
     export const styleph = {  
@@ -111,10 +111,7 @@
   // Individual Project Pages
     // Header
     export const stylet_header = { 
-      // position: 'absolute',
-      marginTop: '3rem',
-      // left: '50%',
-      // transform: 'translateX(-50%)',
+      position: 'absolute',
       color: 'white',
       fontSize: 'clamp(0.75rem, 2.5vw, 2.25rem)',
       textAlign: 'center',

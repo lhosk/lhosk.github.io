@@ -1,30 +1,51 @@
 import NavBar from './NavBar';
-import { style_background, stylet_header_mp, stylet_middle_mam, styleph } from './styles';
-import { catPic, dogPic, soccerPic, beachPic } from './images';
+import {style_background_singular, stylet_header_mp, stylet_middle_mam, styleph} from './styles';
+import {catPic, dogPic, soccerPic, beachPic} from './images';
+import {useState, useEffect} from 'react';
+
+function useMediaQuery(query) {
+  const [matches, setMatches] = useState(false);
+
+  useEffect(() => {
+    const mql = window.matchMedia(query);
+    setMatches(mql.matches);
+    const handler = (e) => setMatches(e.matches);
+    mql.addEventListener('change', handler);
+    return () => mql.removeEventListener('change', handler);
+  }, [query]);
+
+  return matches;
+}
 
 function MoreAboutLucas() {
+  useEffect(() => {
+    document.body.style.overflow = 'auto';
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, []);
+
+  const isWide = useMediaQuery('(min-width: 1600px)');
+  const isNarrow = useMediaQuery('(max-width: 1599px)');
+
   return (
-    <div style={{...style_background, display: 'flex', justifyContent: 'center'}}>
+    <div style={{ ...style_background_singular, display: 'flex', flexDirection: 'column' }}>
       <NavBar />
 
       <div style={stylet_header_mp}>
         more about lucas!!!
       </div>
 
-      {/* Left side */}
-      <div style={{ position: 'absolute', top: 0, left: 0 }}>
-        <img src={catPic} style={{ ...styleph, marginTop: '10rem', marginLeft: '2rem' }} alt="Cat" />
-        <img src={dogPic} style={{ ...styleph, marginTop: '3rem', marginLeft: '2rem' }} alt="Dog" />
-      </div>
+      {isWide && (
+        <div style={{ position: 'absolute', display: 'flex', minHeight: '100vh' }}>
+          <img src={catPic} style={{ ...styleph, top: '8rem', marginLeft: '8vw' }} alt="Cat" />
+          <img src={soccerPic} style={{ ...styleph, top: '8rem', marginLeft: '92vw', translate: '-100%' }} alt="Soccer" />
+          <img src={dogPic} style={{ ...styleph, top: '48rem', marginLeft: '8vw' }} alt="Dog" />
+          <img src={beachPic} style={{ ...styleph, top: '47rem', marginLeft: '92vw', translate: '-100%' }} alt="Beach" />
+        </div>
+      )}
 
-      {/* Right side */}
-      <div style={{ position: 'absolute', top: 0, right: 0 }}>
-        <img src={soccerPic} style={{ ...styleph, marginTop: '10rem', marginRight: '2rem' }} alt="Soccer" />
-        <img src={beachPic} style={{ ...styleph, marginTop: '3rem', marginRight: '2rem' }} alt="Beach" />
-      </div>
-
-      {/* Text content */}
-      <div style={stylet_middle_mam}>
+      <div style={{ ...stylet_middle_mam, left: '50%', translate: '-50%', whiteSpace: 'pre' }}>
         {`
           at the moment, i'm getting a masters in CS and another in (applied) physics
           i should be done with both by December 2025!
@@ -67,6 +88,20 @@ function MoreAboutLucas() {
             </p>
           ))}
       </div>
+
+      {isNarrow && (
+        <div style={{ marginTop: '3.25rem', marginBottom: '3rem', textAlign: 'center' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '1rem' }}>
+            <img src={catPic} style={{ width: '45vw', maxWidth: '400px' }} alt="Cat" />
+            <img src={soccerPic} style={{ width: '45vw', maxWidth: '400px' }} alt="Soccer" />
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem' }}>
+            <img src={dogPic} style={{ width: '45vw', maxWidth: '400px' }} alt="Dog" />
+            <img src={beachPic} style={{ width: '45vw', maxWidth: '400px' }} alt="Beach" />
+          </div>
+        </div>
+      )}
+      
     </div>
   );
 }

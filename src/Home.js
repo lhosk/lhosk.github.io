@@ -1,10 +1,10 @@
-import {style_background_home, stylet_middle_home} from './styles';
+import {style_background, stylet_middle_home} from './styles';
 import NavBar from './NavBar';
 
 function Home() {
   return (
 
-    <div style={style_background_home}>
+    <div style={style_background}>
       
       <NavBar />
 

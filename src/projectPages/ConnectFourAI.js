@@ -4,7 +4,7 @@ import NavBar from '../NavBar';
 function ConnectFour() {
 
   return (
-    <div style={{...style_background}}>
+    <div style={style_background}>
       <NavBar />
       
       <div style={{...stylet_header, top: '8rem'}}>
