@@ -29,7 +29,7 @@ function MoreAboutLucas() {
   const isNarrow = useMediaQuery('(max-width: 1849px)');
 
   return (
-    <div style={{ ...style_background, paddingBottom: '5rem', overflowY: 'auto', minHeight: '150vh' }}>
+    <div style={{ ...style_background, paddingBottom: '5rem', overflowY: 'auto', minHeight: '125vh' }}>
       <NavBar />
 
       <div style={stylet_header_mp}>
@@ -49,7 +49,7 @@ function MoreAboutLucas() {
       {/* Text content */}
       <div style={stylet_middle_mam}>
         {`
-          TESTINGSat the moment, i'm getting a masters in CS and another in (applied) physics
+          at the moment, i'm getting a masters in CS and another in (applied) physics
           i should be done with both by December 2025!
 
           because of this, i live in charlotte (@uncc) during the semesters

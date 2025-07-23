@@ -52,7 +52,11 @@
     ... stylet_middle_home,
     fontSize: 'clamp(0.57rem, 1.5vw, 1.25rem)',
     lineHeight: 'clamp(0.2rem, 0.65vw, 1.5rem)',
-    marginTop: 'clamp(4.5rem, 15rem - 5vw, 15rem)',
+    marginTop: 'clamp(-35rem, 45rem - 50vw, 10rem)',
+    // marginTop: '-35rem',
+    // marginTop: '10rem',
+    // marginTop: 'clamp(4.5rem, 16rem - 5vw, 16rem)',
+    // marginBottom: '3rem',
     // top: 'clamp(4.5rem, 13rem - 5vw, 13rem)',
     position: 'relative'
   };
