@@ -95,7 +95,7 @@ function MoreAboutLucas() {
             <img src={catPic} style={{ width: '45vw', maxWidth: '400px' }} alt="Cat" />
             <img src={soccerPic} style={{ width: '45vw', maxWidth: '400px' }} alt="Soccer" />
           </div>
-          <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem', marginBottom: '1.5rem' }}>
             <img src={dogPic} style={{ width: '45vw', maxWidth: '400px' }} alt="Dog" />
             <img src={beachPic} style={{ width: '45vw', maxWidth: '400px' }} alt="Beach" />
           </div>
