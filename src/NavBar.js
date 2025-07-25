@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { stylet_top_right, stylet_top_left } from './styles';
+import { style_nb_ltr, style_nb_ltl } from './styles';
 
 
 // Links in the top corners of the pages
@@ -14,13 +14,15 @@ const otherLinks = [
 
 const NavBar = () => (
   <>
-    <div style={stylet_top_left} className="top-left">
+    {/* Top Left Link */}
+    <div style={style_nb_ltl} className="top-left">
       <Link to={homeLink.to} style={{ color: 'white', textDecoration: 'underline' }}>
         {homeLink.label}
       </Link>
     </div>
 
-    <div style={stylet_top_right} className="top-right">
+    {/* Top Right Links */}
+    <div style={style_nb_ltr} className="top-right">
       {otherLinks.map(({ label, to, external }) => (
         <div key={label}>
           {external ? (

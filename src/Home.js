@@ -1,4 +1,4 @@
-import {style_background, stylet_middle_home} from './styles';
+import {style_background, style_home_mt} from './styles';
 import NavBar from './NavBar';
 
 function Home() {
@@ -8,7 +8,7 @@ function Home() {
       
       <NavBar />
 
-      <div style={stylet_middle_home} className="home-text">
+      <div style={style_home_mt} className="home-text">
         {[
           "hey! i'm lucas",
           "i do computational physics",
