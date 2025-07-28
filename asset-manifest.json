@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9fc9b43e.css",
-    "main.js": "/static/js/main.e3171bdc.js",
+    "main.js": "/static/js/main.b6682099.js",
     "static/media/atari_vid1.mp4": "/static/media/atari_vid1.73862e9d202219e92638.mp4",
     "static/media/soccer.jpg": "/static/media/soccer.a1b6f294853482d1f00e.jpg",
     "static/media/cat.jpg": "/static/media/cat.8311a9a671e7d4778750.jpg",
@@ -12,10 +12,10 @@
     "service-worker.js": "/service-worker.js",
     "index.html": "/index.html",
     "main.9fc9b43e.css.map": "/static/css/main.9fc9b43e.css.map",
-    "main.e3171bdc.js.map": "/static/js/main.e3171bdc.js.map"
+    "main.b6682099.js.map": "/static/js/main.b6682099.js.map"
   },
   "entrypoints": [
     "static/css/main.9fc9b43e.css",
-    "static/js/main.e3171bdc.js"
+    "static/js/main.b6682099.js"
   ]
 }
