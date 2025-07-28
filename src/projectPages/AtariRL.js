@@ -1,7 +1,6 @@
 import {style_background, style_ipp_h, style_ipp_mt} from '../styles';
 import NavBar from '../NavBar';
-import freeway from '../videos/atari_vid1.mp4';
-import pong from '../videos/atari_vid2.mp4';
+import {freeway, pong} from '../videos';
 
 function AtariRL() {
 
@@ -55,7 +54,7 @@ function AtariRL() {
       </div>
       
       {/* Videos */}
-      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'clamp(35rem, 60vw, 52rem)'}}>
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'clamp(35rem, 60vw, 52rem)', paddingBottom: '2rem'}}>
         <video
           src={freeway} controls
           style={{width: '90%', maxWidth: '600px'}}
