@@ -21,7 +21,7 @@ function AtariRL() {
       </div>
 
       {/* Main Text */}
-      <div style={{...style_ipp_mt, top: 'clamp(2rem, 10vh - 5vw, 8rem)'}}>
+      <div style={style_ipp_mt}>
         {`
           this project was the first reinforcement learning project i’ve done
           it trains on atari games using A2C

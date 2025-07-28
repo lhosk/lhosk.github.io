@@ -40,11 +40,11 @@ function MoreAboutLucas() {
 
       {/* Images for wide screen */}
       {isWide && (
-        <div style={{ position: 'absolute', display: 'flex', minHeight: '100vh' }}>
-          <img src={catPic} style={{ ...style_map_ph, top: '8rem', marginLeft: '7vw' }} alt="Cat" />
-          <img src={soccerPic} style={{ ...style_map_ph, top: '8rem', marginLeft: '93vw', translate: '-100%' }} alt="Soccer" />
-          <img src={dogPic} style={{ ...style_map_ph, top: '48rem', marginLeft: '7vw' }} alt="Dog" />
-          <img src={beachPic} style={{ ...style_map_ph, top: '47rem', marginLeft: '93vw', translate: '-100%', marginBottom: '2rem' }} alt="Beach" />
+        <div style={{ position: 'absolute', display: 'flex', minHeight: '100vh'}}>
+          <img src={catPic} style={{ ...style_map_ph, top: '8rem', marginLeft: '7vw'}} alt="Cat" />
+          <img src={soccerPic} style={{ ...style_map_ph, top: '8rem', marginLeft: '93vw', translate: '-100%'}} alt="Soccer" />
+          <img src={dogPic} style={{ ...style_map_ph, top: '48rem', marginLeft: '7vw'}} alt="Dog" />
+          <img src={beachPic} style={{ ...style_map_ph, top: '47rem', marginLeft: '93vw', translate: '-100%', marginBottom: '2rem'}} alt="Beach" />
         </div>
       )}
 
@@ -62,7 +62,7 @@ function MoreAboutLucas() {
           i recently got a cat (Laz) and have had a dog (Pepper)
           unfortunately, they don't get along very well
 
-          during my free time, i play soccer, billiards, and have a few guitars that i play
+          during my free time, i play soccer, billiards, and also a few guitars
           i also have a lap-steel guitar, but i'm not very good at it and the strings break a lot
           if you ever see me, i'm most likely listening to music
           Dominic Fike, Yeek, Baird, Bakar, and Matt Champion are my favorite artists
@@ -97,7 +97,7 @@ function MoreAboutLucas() {
       {/* Images for small screen */}
       {isNarrow && (
         <div style={{marginTop: '3.25rem', marginBottom: '3rem', textAlign: 'center'}}>
-          <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '1rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '1rem'}}>
             <img src={catPic} style={{width: '45vw', maxWidth: '400px'}} alt="Cat" />
             <img src={soccerPic} style={{width: '45vw', maxWidth: '400px'}} alt="Soccer" />
           </div>

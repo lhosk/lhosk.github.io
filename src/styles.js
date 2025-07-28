@@ -123,5 +123,11 @@
       marginTop: '10rem',
       whiteSpace: 'pre',
       position: 'absolute', 
-      top: 'clamp(5rem, 10vh, 10rem)'
+      top: 'clamp(2rem, 10vh - 5vw, 8rem)'
     }
+    // Photos (ph)
+    export const style_ipp_ph = {  
+      position: 'relative',
+      width: 'clamp(200px, 60vw, 450px)',
+      height: 'auto',
+    };
