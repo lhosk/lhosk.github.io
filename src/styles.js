@@ -97,11 +97,9 @@
     // Links Text (lt)
     export const style_pp_lt = {
       color: 'white',
-      overflow: 'hidden',
       textAlign: 'center',
-      fontSize: 'clamp(0.5rem, 2.5vw, 1.75rem',
+      fontSize: 'clamp(0.5rem, 2.5vw, 1.75rem)',
       listStyleType: 'none',
-      padding: '0',
     }
 
 
