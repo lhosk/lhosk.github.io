@@ -20,16 +20,16 @@ function Parallel() {
       </div>
 
       {/* Main Text */}
-      <div style={{...style_ipp_mt, whiteSpace: 'pre-wrap'}}>
+      <div style={style_ipp_mt}>
         {`
           tools: openmp, pthreads, c++, hpc, slurm, bash, winscp, putty, multi-threading, 
           parallel computing, performance benchmarking, job scheduling
 
           this was my first HPC and multi-threaded/parallel computing related project
-          using openMP and pthreads, we determined the time taken to evaluate a function per thread
+          using openMP and pthreads, we determined the time taken to evaluate a function/thread
 
           unfortunately, this was one of the few projects i did before HPC access was taken away
-          i hope to do more work on HPCs and parallel threaded environments when i have the time
+          i hope to do more work on HPCs and parallel threaded environments when i time
 
           jobs were run via Slurm using an HPC at UNCC 
           the outputs are shown in the graphs below as openMP and pthreads respectively

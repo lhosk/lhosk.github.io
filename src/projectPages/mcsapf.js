@@ -20,7 +20,7 @@ function MCSAPF() {
       </div>
 
       {/* Main Text */}
-      <div style={{...style_ipp_mt, whiteSpace: 'pre-wrap', marginTop: '11rem'}}>
+      <div style={{...style_ipp_mt, marginTop: '11rem'}}>
         {`
           tools: arduino, c++, monte carlo simulation, atomic packing factor, solid state 
           physics, physical computing, numerical methods, random sampling
@@ -32,7 +32,7 @@ function MCSAPF() {
           the atomic packing factor (APF) is the volume of atoms vs total volume of the unit cell
           essentially, it shows how packed a crystal is of atoms
           the APF can be found mathematically for all atom combinations
-          however if you want a quick estimation, you can put the radii and positions into the MCS
+          if you want a quick estimation, you can put the radii and positions into the MCS
 
           the code and more information is attached to the project link
           the arduino wiring looks like:

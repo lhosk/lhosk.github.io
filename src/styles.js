@@ -119,7 +119,7 @@
       fontSize: 'clamp(0.57rem, 1.25vw, 1.2rem)',
       lineHeight: 'clamp(0.2rem, 0.65vw, 1.5rem)',
       marginTop: '10rem',
-      whiteSpace: 'pre',
+      whiteSpace: 'pre-wrap',
       position: 'absolute', 
       top: 'clamp(2rem, 10vh - 5vw, 8rem)'
     }

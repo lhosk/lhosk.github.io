@@ -15,7 +15,7 @@ function MatlabMCS() {
       </div>
 
       {/* Main Text */}
-      <div style={{...style_ipp_mt, whiteSpace: 'pre-wrap', marginTop: '11rem'}}>
+      <div style={{...style_ipp_mt, marginTop: '11rem'}}>
         {`
           tools: matlab, monte carlo simulation, random sampling, 
           2d and 3d geometry, spatial estimation, numerical methods
