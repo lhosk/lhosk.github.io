@@ -120,7 +120,7 @@
       lineHeight: 'clamp(0.2rem, 0.65vw, 1.5rem)',
       marginTop: '10rem',
       whiteSpace: 'pre',
-      // position: 'absolute', 
+      position: 'absolute', 
       top: 'clamp(2rem, 10vh - 5vw, 8rem)'
     }
 
