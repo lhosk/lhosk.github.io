@@ -59,7 +59,7 @@ function ConnectFour() {
       </div>
 
       {/* Photos */}
-      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'clamp(40rem, 80vw, 55rem)', paddingBottom: '2rem'}}>
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'clamp(40rem, 86vw, 55rem)', paddingBottom: '2rem'}}>
         <img src={connectFourPic} style={style_ipp_ph} alt="connect_four" />
       </div>
 

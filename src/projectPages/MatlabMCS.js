@@ -1,4 +1,4 @@
-import {style_background, style_ipp_h, style_ipp_mt, style_ipp_ph} from '../styles';
+import {style_background, style_ipp_h, style_ipp_mt2, style_ipp_ph} from '../styles';
 import NavBar from '../NavBar';
 import {matlabMCSPic} from '../images';
 
@@ -15,7 +15,7 @@ function MatlabMCS() {
       </div>
 
       {/* Main Text */}
-      <div style={style_ipp_mt}>
+      <div style={style_ipp_mt2}>
         {`
           tools: matlab, monte carlo simulation, random sampling, 
           2d and 3d geometry, spatial estimation, numerical methods
