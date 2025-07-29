@@ -20,7 +20,7 @@ function MCSAPF() {
       </div>
 
       {/* Main Text */}
-      <div style={{...style_ipp_mt, marginTop: '11rem'}}>
+      <div style={style_ipp_mt}>
         {`
           tools: arduino, c++, monte carlo simulation, atomic packing factor, solid state physics, 
           physical computing, numerical methods, random sampling

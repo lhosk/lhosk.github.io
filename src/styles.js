@@ -118,7 +118,7 @@
       textAlign: 'center',
       fontSize: 'clamp(0.57rem, 1.25vw, 1.2rem)',
       lineHeight: 'clamp(0.2rem, 0.65vw, 1.5rem)',
-      marginTop: '10rem',
+      marginTop: '11rem',
       whiteSpace: 'pre',
       position: 'absolute', 
       top: 'clamp(2rem, 10vh - 5vw, 8rem)'
