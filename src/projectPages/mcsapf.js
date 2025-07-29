@@ -10,7 +10,7 @@ function MCSAPF() {
       <NavBar />
 
       {/* Title and Link */}
-      <div style={{...style_ipp_h, top: '8rem'}}>            
+      <div style={{...style_ipp_h, top: '10rem'}}>            
         <a
           href="https://github.com/lhosk/Physical-Computing/blob/main/code_monte_carlo_simulation_on_atomic_packing_factor.ino" 
           target="_blank" rel="noopener noreferrer" style={{color: 'white'}}
@@ -20,18 +20,19 @@ function MCSAPF() {
       </div>
 
       {/* Main Text */}
-      <div style={style_ipp_mt}>
+      <div style={{...style_ipp_mt, marginTop: '11rem'}}>
         {`
-          // tools: matlab, monte carlo simulation, random sampling, 2d geometry, 3d geometry, spatial estimation, numerical methods
+          tools: arduino, c++, monte carlo simulation, atomic packing factor, solid state physics, 
+          physical computing, numerical methods, random sampling
           
           this was my second monte carlo simulation project and my first time using an arduino
-          i used it as an end of semester presentation for my physical computing class and got the idea from my solid state physics class
+          i used it as an end of semester presentation for my physical computing class 
+          however, i got the idea from my solid state physics class
 
-          this project kind of backpacks my other MCS project
-          regardless, the atomic packing factor (APF) is the volume of atoms vs total volume of the unit cell
+          the atomic packing factor (APF) is the volume of atoms vs total volume of the unit cell
           essentially, it shows how packed a crystal is of atoms
           the APF can be found mathematically for all atom combinations
-          however if you want a quick estimation for a unique combination, you could chuck the radii and positions into the MCS and determine the APF
+          however if you want a quick estimation, you can put the radii and positions into the MCS
 
           the code and more information is attached to the project link
           the arduino wiring looks like:
@@ -52,8 +53,8 @@ function MCSAPF() {
       </div>
 
       {/* Photos */}
-      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'clamp(20rem, 40vw, 40rem)', paddingBottom: '2rem'}}>
-        <img src={mcsapfPic} style={{...style_ipp_ph, width: 'clamp(400px, 60vw, 650px)'}} alt="mcsapf" />
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'clamp(32rem, 60vw, 60rem)', paddingBottom: '2rem'}}>
+        <img src={mcsapfPic} style={{...style_ipp_ph, width: 'clamp(320px, 60vw, 650px)'}} alt="mcsapf" />
       </div>
 
     </div>

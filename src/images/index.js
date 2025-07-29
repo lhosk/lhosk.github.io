@@ -15,9 +15,8 @@
     import mcsapfPic from './folder_mcsapf/mcsapf.png'
     
     // Parallel Computing Page
-
-
-    // Recipe Recommendation Page
+    import parallelOpenmpPic from './folder_parallel/parallel_open_mp.png'
+    import parallelPthreadsPic from './folder_parallel/parallel_pthreads.png'
 
 
     // Red Light Green Light Page
@@ -26,4 +25,10 @@
     // Virtual Retinal Display Page
 
 
-export {beachPic, catPic, connectFourPic, dogPic, matlabMCSPic, mcsapfPic, soccerPic};
+export {
+    beachPic, catPic, dogPic, soccerPic,
+    connectFourPic, 
+    matlabMCSPic, 
+    mcsapfPic, 
+    parallelOpenmpPic, parallelPthreadsPic
+};

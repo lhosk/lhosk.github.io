@@ -10,24 +10,25 @@ function MatlabMCS() {
       <NavBar />
 
       {/* Title and Link */}
-      <div style={{...style_ipp_h, top: '8rem'}}>    
+      <div style={{...style_ipp_h, top: '10rem'}}>    
         {`Monte-Carlo Simulation to Predict Size of Circles and Spheres`}
       </div>
 
       {/* Main Text */}
-      <div style={style_ipp_mt}>
+      <div style={{...style_ipp_mt, marginTop: '12rem'}}>
         {`
-          tools: matlab, monte carlo simulation, random sampling, 2d geometry, 3d geometry, spatial estimation, numerical methods
+          tools: matlab, monte carlo simulation, random sampling, 
+          2d and 3d geometry, spatial estimation, numerical methods
           
           this was my first time coding and it was for a computational physics class (matlab based)
           the problem is to estimate the area of a circle using a monte carlo simulation
 
-          this class was the beginning of computer science for me and the project’s development shows this
+          this class was the beginning of computer science for me and the project’s development shows
           the given problem is just 2D with one circle and given bounds
 
           later, i would update this to include multiple circles
           then, i would add holes to the program
-          this allows the user to predict the area of the circles, while taking away the hole occupied areas
+          (allows user to predict area of the circles - area of hole)
 
           once i was done with the 2d version, i turned it into a 3d problem
           so, i updated it with spheres and spherical holes
@@ -53,7 +54,7 @@ function MatlabMCS() {
       </div>
 
       {/* Photos */}
-      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'clamp(40rem, 80vw, 55rem)', paddingBottom: '2rem'}}>
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'clamp(42rem, 80vw, 57rem)', paddingBottom: '2rem'}}>
         <img src={matlabMCSPic} style={style_ipp_ph} alt="matlab_mcs" />
       </div>
 
