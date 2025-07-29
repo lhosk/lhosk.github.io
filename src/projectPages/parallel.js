@@ -20,7 +20,7 @@ function Parallel() {
       </div>
 
       {/* Main Text */}
-      <div style={style_ipp_mt}>
+      <div style={{...style_ipp_mt, whiteSpace: 'pre-wrap'}}>
         {`
           tools: openmp, pthreads, c++, hpc, slurm, bash, winscp, putty, multi-threading, 
           parallel computing, performance benchmarking, job scheduling

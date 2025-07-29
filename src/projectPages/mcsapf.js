@@ -20,10 +20,10 @@ function MCSAPF() {
       </div>
 
       {/* Main Text */}
-      <div style={style_ipp_mt}>
+      <div style={{...style_ipp_mt, whiteSpace: 'pre-wrap'}}>
         {`
-          tools: arduino, c++, monte carlo simulation, atomic packing factor, solid state physics, 
-          physical computing, numerical methods, random sampling
+          tools: arduino, c++, monte carlo simulation, atomic packing factor, solid state 
+          physics, physical computing, numerical methods, random sampling
           
           this was my second monte carlo simulation project and my first time using an arduino
           i used it as an end of semester presentation for my physical computing class 
