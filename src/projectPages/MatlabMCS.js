@@ -20,23 +20,34 @@ function MatlabMCS() {
           tools: matlab, monte carlo simulation, random sampling, 
           2d and 3d geometry, spatial estimation, numerical methods
           
-          this was my first time coding and it was for a computational physics class (matlab based)
-          the problem is to estimate the area of a circle using a monte carlo simulation
+          this was my first time coding and it 
+          was for a computational physics class 
+          (matlab based)
+          the problem is to estimate the area of a 
+          circle using a monte carlo simulation
 
-          this class was the beginning of computer science for me and the project’s development shows
-          the given problem is just 2D with one circle and given bounds
+          this class was the beginning of computer 
+          science for me and the project’s developme
+          nt shows
+          the given problem is just 2D with one cir
+          cle and given bounds
 
-          later, i would update this to include multiple circles
+          later, i would update this to include mult
+          iple circles
           then, i would add holes to the program
-          (allows user to predict area of the circles - area of hole)
+          (allows user to predict area of the circles
+           - area of hole)
 
-          once i was done with the 2d version, i turned it into a 3d problem
-          so, i updated it with spheres and spherical holes
+          once i was done with the 2d version, i turn
+          ed it into a 3d problem
+          so, i updated it with spheres and spherica
+          l holes
 
           lastly, i updated it to work with ellipses
 
           one of the outputs can be found below:
-          (pink is the sphere we are measure and black is a "spherical hole")
+          (pink is the sphere we are measure and blac
+          k is a "spherical hole")
         `
           .trim()
           .split('\n')
