@@ -123,17 +123,6 @@
       position: 'absolute', 
       top: 'clamp(2rem, 10vh - 5vw, 8rem)'
     }
-    // Middle Text (mt) 2nd version for issue
-    export const style_ipp_mt2 = {
-      color: 'white',
-      textAlign: 'center',
-      fontSize: 'clamp(0.57rem, 1.25vw, 1.2rem)',
-      lineHeight: 'clamp(0.2rem, 0.65vw, 1.5rem)',
-      marginTop: '11rem',
-      whiteSpace: 'pre',
-      position: 'absolute', 
-      top: 'clamp(2rem, 10vh - 5vw, 8rem)'
-    }
     // Photos (ph)
     export const style_ipp_ph = {  
       position: 'relative',
