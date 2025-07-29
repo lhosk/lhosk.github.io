@@ -1,6 +1,5 @@
 // Pages
-
-// More About Me
+    // More About Me
     import beachPic from './folder_mam/beach.jpg';
     import catPic from './folder_mam/cat.jpg';
     import dogPic from './folder_mam/dog.jpg';
@@ -10,10 +9,10 @@
     import connectFourPic from './folder_connect_four/connect_four.png';
 
     // MATLAB MCS Prediction Page
-    
+    import matlabMCSPic from './folder_matlab_mcs/matlab_mcs.png'
 
     // MCS APF Page
-    
+    import mcsapfPic from './folder_mcsapf/mcsapf.png'
     
     // Parallel Computing Page
 
@@ -27,4 +26,4 @@
     // Virtual Retinal Display Page
 
 
-export {beachPic, catPic, connectFourPic, dogPic, soccerPic};
+export {beachPic, catPic, connectFourPic, dogPic, matlabMCSPic, mcsapfPic, soccerPic};

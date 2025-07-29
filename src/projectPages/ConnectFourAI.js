@@ -22,10 +22,10 @@ function ConnectFour() {
       {/* Main Text */}
       <div style={style_ipp_mt}>
         {`
+          tools: python, pygame, tkinter, minimax, alpha-beta pruning
+
           this project was my first time making a game, interface, and AI algorithms
           it was also my second AI related project, with the AI as MiniMax and AB Pruning
-
-          Tools: python, pygame, tkinter, minimax, alpha-beta pruning
 
           the user can choose which ai to play and change who gets to play first
 

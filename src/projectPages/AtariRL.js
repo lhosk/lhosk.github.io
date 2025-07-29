@@ -22,10 +22,10 @@ function AtariRL() {
       {/* Main Text */}
       <div style={style_ipp_mt}>
         {`
+          tools: python, stable-baselines3, A2C, ALE
+
           this project was the first reinforcement learning project i’ve done
           it trains on atari games using A2C
-
-          Tools: python, stable-baselines3, A2C, ALE
 
           although this is pretty basic, i am working on RL for F1 tracks
           soon enough, you’ll be able to check this out on the projects page
