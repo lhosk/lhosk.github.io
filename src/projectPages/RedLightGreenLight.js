@@ -55,8 +55,8 @@ function RedLightGreenLight() {
       </div>
 
       {/* Photos */}
-      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'clamp(20rem, 46vw, 45rem)', paddingBottom: '2rem'}}>
-        <img src={rlglPic} style={{...style_ipp_ph, width: 'clamp(400px, 60vw, 650px)'}} alt="rlgl" />
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'clamp(30rem, 65vw, 55rem)', paddingBottom: '2rem'}}>
+        <img src={rlglPic} style={{...style_ipp_ph, width: 'clamp(300px, 60vw, 650px)'}} alt="rlgl" />
       </div>
 
     </div>
