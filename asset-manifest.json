@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9fc9b43e.css",
-    "main.js": "/static/js/main.b97032af.js",
+    "main.js": "/static/js/main.2e9acd0f.js",
     "static/media/atari_vid1.mp4": "/static/media/atari_vid1.73862e9d202219e92638.mp4",
     "static/media/soccer.jpg": "/static/media/soccer.a1b6f294853482d1f00e.jpg",
     "static/media/cat.jpg": "/static/media/cat.8311a9a671e7d4778750.jpg",
@@ -11,16 +11,17 @@
     "static/media/parallel_pthreads.png": "/static/media/parallel_pthreads.ea2f92604c4a39b3d725.png",
     "static/media/parallel_open_mp.png": "/static/media/parallel_open_mp.b64cba2dd1a1eb7948c7.png",
     "static/media/rlgl.png": "/static/media/rlgl.f2878ccaa781f79d0751.png",
+    "static/media/vrd_eye.png": "/static/media/vrd_eye.db84d1d390b5541b8650.png",
     "static/media/mcsapf.png": "/static/media/mcsapf.10cb905e1cd826e82db1.png",
     "static/media/matlab_mcs.png": "/static/media/matlab_mcs.d7095d9b54f2e8a0e2e4.png",
     "static/media/connect_four.png": "/static/media/connect_four.3677d33ae76291a7e17d.png",
     "service-worker.js": "/service-worker.js",
     "index.html": "/index.html",
     "main.9fc9b43e.css.map": "/static/css/main.9fc9b43e.css.map",
-    "main.b97032af.js.map": "/static/js/main.b97032af.js.map"
+    "main.2e9acd0f.js.map": "/static/js/main.2e9acd0f.js.map"
   },
   "entrypoints": [
     "static/css/main.9fc9b43e.css",
-    "static/js/main.b97032af.js"
+    "static/js/main.2e9acd0f.js"
   ]
 }
