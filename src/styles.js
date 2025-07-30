@@ -36,7 +36,8 @@
       position: 'absolute',
       top: '1rem',
       whiteSpace: 'pre-line',
-      lineHeight: '2.2rem'
+      lineHeight: '2.2rem',
+      zIndex: 10
     };
     // Links top right (ltr)
     export const style_nb_ltr = { 

@@ -9,7 +9,7 @@ function MatlabMCS() {
       
       <NavBar />
 
-      {/* Title and Link */}
+      {/* Title */}
       <div style={{...style_ipp_h, top: '10rem'}}>    
         {`Monte-Carlo Simulation to Predict Size of Circles and Spheres`}
       </div>
