@@ -18,9 +18,8 @@
     import parallelOpenmpPic from './folder_parallel/parallel_open_mp.png'
     import parallelPthreadsPic from './folder_parallel/parallel_pthreads.png'
 
-
     // Red Light Green Light Page
-
+    import rlglPic from './folder_rlgl/rlgl.png'
     
     // Virtual Retinal Display Page
 
@@ -30,5 +29,6 @@ export {
     connectFourPic, 
     matlabMCSPic, 
     mcsapfPic, 
-    parallelOpenmpPic, parallelPthreadsPic
+    parallelOpenmpPic, parallelPthreadsPic,
+    rlglPic
 };

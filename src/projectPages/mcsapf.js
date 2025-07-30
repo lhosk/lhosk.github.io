@@ -53,7 +53,7 @@ function MCSAPF() {
       </div>
 
       {/* Photos */}
-      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'clamp(32rem, 60vw, 60rem)', paddingBottom: '2rem'}}>
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'clamp(32rem, 60vw, 45rem)', paddingBottom: '2rem'}}>
         <img src={mcsapfPic} style={{...style_ipp_ph, width: 'clamp(320px, 60vw, 650px)'}} alt="mcsapf" />
       </div>
 

@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom';
-import { style_nb_ltr, style_nb_ltl } from './styles';
+import {Link} from 'react-router-dom';
+import {style_nb_ltr, style_nb_ltl} from './styles';
 
 
 // Links in the top corners of the pages
-const homeLink = { label: 'home', to: '/' };
+const homeLink = {label: 'home', to: '/'};
 const otherLinks = [
   { label: 'lhoskin.work@gmail.com', to: 'mailto:lhoskin.work@gmail.com', external: true },
   { label: 'more about me', to: '/more_about_lucas' },
