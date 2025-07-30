@@ -19,7 +19,7 @@ function RecipeRec() {
       </div>
 
       {/* Main Text */}
-      <div style={{...style_ipp_mt, marginBottom: '2rem'}}>
+      <div style={{...style_ipp_mt, paddingBottom: '2rem'}}>
         {`
           tools: python, pandas, scikit-learn, jupyter notebook, nlp, tf-idf, 
           text preprocessing, recommendation systems, rag, openAI, huggingface
