@@ -22,7 +22,7 @@
     import rlglPic from './folder_rlgl/rlgl.png'
     
     // Virtual Retinal Display Page
-
+    import vrdPic from './folder_vrd/vrd_eye.png'
 
 export {
     beachPic, catPic, dogPic, soccerPic,
@@ -30,5 +30,6 @@ export {
     matlabMCSPic, 
     mcsapfPic, 
     parallelOpenmpPic, parallelPthreadsPic,
-    rlglPic
+    rlglPic,
+    vrdPic
 };
