@@ -13,7 +13,7 @@ function Home() {
           "hey! i'm lucas",
           "i do computational physics",
           "i'm working on a master's in cs and physics",
-          "my current project is reinforcement learning on F1 tracks",
+          "my current project is z-pinch optimization with ML",
           "my next project will be optimizing soccer formations/positions",
           "check out the links in the top right!"
         ].map((line, i) => (
