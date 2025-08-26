@@ -88,7 +88,7 @@
     };
 
 
-  // Projects Page (pp)
+  // Projects Page (pp) Also openGL_and_WebGL page (another projects page)
     // Gap for each link (link_gap)
     export const style_pp_link_gap = {
       color: 'white', 
@@ -98,6 +98,8 @@
     // Links Text (lt)
     export const style_pp_lt = {
       color: 'white',
+      padding: '0',
+      margin: '0',
       textAlign: 'center',
       fontSize: 'clamp(0.5rem, 2.5vw, 1.75rem)',
       listStyleType: 'none',

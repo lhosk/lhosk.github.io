@@ -32,6 +32,9 @@ function Projects() {
               <Link to="/projects/mcsapf" style = {style_pp_link_gap}>
               Arduino: Monte Carlo Simulation for Atomic Packing Factors</Link>
 
+              <Link to="/projects/opengl_and_webgl" style = {style_pp_link_gap}>
+              OpenGL and WebGL</Link>
+
               <Link to="/projects/parallel" style = {style_pp_link_gap}>
               Parallel Computing on an HPC Using Pthreads and openMP</Link>
 

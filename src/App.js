@@ -9,11 +9,15 @@ import Projects from './Projects'
 import AtariRL from './projectPages/AtariRL';
 import ConnectFour from './projectPages/ConnectFourAI';
 import MatlabMCS from './projectPages/MatlabMCS';
-import MCSAPF from './projectPages/mcsapf';
+import MCSAPF from './projectPages/MCSAPF';
+import OpenGLAndWebGL from './projectPages/OpenGLAndWebGL';
 import RedLightGreenLight  from './projectPages/RedLightGreenLight';
-import Parallel from './projectPages/parallel';
+import Parallel from './projectPages/Parallel';
 import RecipeRec from './projectPages/RecipeRec';
-import VRD from './projectPages/vrd';
+import VRD from './projectPages/VRD';
+
+// (OpenGL and WebGL) GL Project Pages
+import RotatingSquares from './glPages/RotatingSquares';
 
 function App() {
   return (
@@ -29,11 +33,15 @@ function App() {
       <Route path="/projects/connect_four" element={<ConnectFour />} />
       <Route path="/projects/mcs_matlab" element={<MatlabMCS />} />
       <Route path="/projects/mcsapf" element={<MCSAPF />} />
+      <Route path="/projects/opengl_and_webgl" element={<OpenGLAndWebGL />} />      
       <Route path="/projects/parallel" element={<Parallel />} />
       <Route path="/projects/recipe_rec" element={<RecipeRec />} />
       <Route path="/projects/red_light_green_light" element={<RedLightGreenLight />} />
       <Route path="/projects/vrd" element={<VRD />} />
       
+      {/* (OpenGL and WebGL) GL Project Pages */}
+      <Route path="/projects/opengl_and_webgl/rotating_squares" element={<RotatingSquares />} />
+
     </Routes>
   );
 }

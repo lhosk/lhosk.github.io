@@ -49,7 +49,6 @@ function MoreAboutLucas() {
       )}
 
       {/* main text */}
-      {/* <div style={{ ...style_map_mt, left: '50%', translate: '-50%', whiteSpace: 'pre' }}> */}
       <div style={style_map_mt}>
         {`
           at the moment, i'm getting a masters in CS and another in (applied) physics
